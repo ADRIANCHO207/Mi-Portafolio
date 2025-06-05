@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contacto from './components/contacto';
-import Inicio from './components/Inicio';
+import Inicio from './components/inicio';
 import Sobremi from './components/sobremi';
 import Proyectos from './components/proyectos';
 import Conocimientos from './components/conocimiento';
