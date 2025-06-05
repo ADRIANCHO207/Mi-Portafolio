@@ -7,23 +7,23 @@ const educacionData = [
     institucion: 'Institución Educativa Técnica Instituto Armero',
     titulo: 'Bachiller Académico',
     fecha: '2018 - 2023',
-    imagen: 'src/assets/colegio.jpg',
-    certificado: 'src/assets/certificados/Certificado_bachiller.pdf'
+    imagen: '/src/assets/colegio.jpg',
+    certificado: '/src/assets/certificados/Certificado_bachiller.pdf'
   },
   {
     id: 2,
     institucion: 'SENA - Servicio Nacional de Aprendizaje',
     titulo: 'Técnico en Programación de Software',
     fecha: '2022 - 2023',
-    imagen: 'src/assets/sena.jpg',
-    certificado: 'src/assets/certificados/Certificado_tecnico.pdf'
+    imagen: '/src/assets/sena.jpg',
+    certificado: '/src/assets/certificados/Certificado_tecnico.pdf'
   },
   {
     id: 3,
     institucion: 'SENA - Servicio Nacional de Aprendizaje',
     titulo: 'Tecnólogo en Análisis y Desarrollo de Software',
     fecha: '2024 - Presente',
-    imagen: 'src/assets/sena.jpg',
+    imagen: '/src/assets/sena.jpg',
     certificado_1: '#'
   },
 ];

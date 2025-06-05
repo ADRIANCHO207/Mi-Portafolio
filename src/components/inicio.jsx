@@ -15,7 +15,7 @@ const Inicio = () => {
     <section id="inicio" className="inicio">
       <div className="contenedor-inicio">
         <div className="foto">
-          <img src="src/assets/mi-foto.jpg" alt="Mi Foto" className="foto-perfil" />
+          <img src="/src/assets/mi-foto.jpg" alt="Mi Foto" className="foto-perfil" />
         </div>
         <div className="info">
           <h1>Cesar Adrian Camargo Rodriguez</h1>
