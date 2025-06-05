@@ -20,7 +20,7 @@ const Contacto = () => {
   return (
     <section id="contacto" className="fade-in">
       <h1>Contactame</h1>
-      <p>¿Te gustaría escribirme? Copia y envíame un correo:</p>
+      <p>¿Te gustaría escribirme? Copia o envíame un correo:</p>
 
       <div className="contenedor-copia">
         <input type="text" value={correo} readOnly />
