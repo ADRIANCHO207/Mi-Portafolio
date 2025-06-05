@@ -4,7 +4,7 @@ import {
   FaReact, FaGitAlt, FaLaravel
 } from 'react-icons/fa';
 import { SiMysql, SiBootstrap } from 'react-icons/si';
-import '../assets/styles/Conocimientos.css';
+import '../assets/styles/conocimientos.css';
 
 const skills = [
   { id: 1, nombre: 'HTML', icono: <FaHtml5 />, nivel: 'Avanzado' },
