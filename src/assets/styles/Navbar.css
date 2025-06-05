@@ -93,3 +93,14 @@ section {
     display: block;
   }
 }
+
+@media (max-width: 844px) {
+  .logo-img {
+    height: 50px;
+  }
+
+  .navbar-container {
+    padding: 15px 15px;
+  }
+}
+
