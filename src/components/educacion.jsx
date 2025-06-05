@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/styles/educacion.css';
+import colegioImg from '../assets/colegio.jpg';
+import senaImg from '../assets/sena.jpg';
+import certificadoBachiller from '../assets/certificados/Certificado_bachiller.pdf';
+import certificadoTecnico from '../assets/certificados/Certificado_tecnico.pdf';
+
 
 const educacionData = [
   {
@@ -7,25 +12,25 @@ const educacionData = [
     institucion: 'Institución Educativa Técnica Instituto Armero',
     titulo: 'Bachiller Académico',
     fecha: '2018 - 2023',
-    imagen: '/src/assets/colegio.jpg',
-    certificado: '/src/assets/certificados/Certificado_bachiller.pdf'
+    imagen: colegioImg,
+    certificado: certificadoBachiller
   },
   {
     id: 2,
     institucion: 'SENA - Servicio Nacional de Aprendizaje',
-    titulo: 'Técnico en Programación de Software',
+    titulo: 'Técnico en Sistemas',
     fecha: '2022 - 2023',
-    imagen: '/src/assets/sena.jpg',
-    certificado: '/src/assets/certificados/Certificado_tecnico.pdf'
+    imagen: senaImg,
+    certificado: certificadoTecnico
   },
   {
     id: 3,
     institucion: 'SENA - Servicio Nacional de Aprendizaje',
     titulo: 'Tecnólogo en Análisis y Desarrollo de Software',
     fecha: '2024 - Presente',
-    imagen: '/src/assets/sena.jpg',
-    certificado_1: '#'
-  },
+    imagen: senaImg,
+    certificado_1: '#' // en curso
+  }
 ];
 
 const Educacion = () => {

@@ -9,18 +9,21 @@ import {
   FaPhoneAlt,
   FaGoogle
 } from 'react-icons/fa';
+import miFoto from '../assets/mi-foto.jpg';
+
 
 const Inicio = () => {
   return (
     <section id="inicio" className="inicio">
       <div className="contenedor-inicio">
         <div className="foto">
-          <img src="/src/assets/mi-foto.jpg" alt="Mi Foto" className="foto-perfil" />
+          <img src={miFoto} alt="Mi Foto" className="foto-perfil" />
         </div>
         <div className="info">
           <h1>Cesar Adrian Camargo Rodriguez</h1>
           <h2>Aprendiz SENA</h2>
-          <p>Desarrollador</p>
+          <p>Tecnologo en Analisis y Desarrollo de Software</p>
+          <p>(Desarrollador Web)</p>
 
           <div className="datos-contacto">
             <p><FaMapMarkerAlt className="icono" /> Ibagué, Tolima - Colombia</p>

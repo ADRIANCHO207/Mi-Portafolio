@@ -9,7 +9,7 @@ const SobreMi = () => {
     <section id="sobre-mi" className="sobre-mi fade-in">
       <h2>Sobre mí</h2>
       <p>
-        Soy un joven colombiano de 18 años, Actualmente residente en Ibagué, aprendiz del SENA en Análisis y Desarrollo de Software. Me apasiona el mundo del desarrollo web y me motiva el aprendizaje constante. Me considero una persona sociable, proactiva y con facilidad para adaptarme a nuevos equipos y entornos.
+        Soy un joven colombiano de 18 años, Actualmente residente en Ibagué, aprendiz del <strong>Tecnologo en Análisis y Desarrollo de Software</strong>. Me apasiona el mundo del desarrollo web y me motiva el aprendizaje constante. Me considero una persona sociable, proactiva y con facilidad para adaptarme a nuevos equipos y entornos.
       </p>
       <p>
         Tengo conocimientos en <strong>HTML, CSS, JavaScript, PHP, MySQL, Python y Bootstrap</strong>, además de una base en frameworks como <strong>Laravel y React</strong>. Disfruto tanto del diseño frontend como de la lógica backend, lo que me impulsa a crecer como desarrollador <strong>full-stack</strong>.
