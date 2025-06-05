@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import '../assets/styles/Proyectos.css';
+import '../assets/styles/proyectos.css';
 
 const proyectos = [
   {
