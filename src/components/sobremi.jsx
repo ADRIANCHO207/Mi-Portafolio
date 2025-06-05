@@ -1,5 +1,5 @@
-import React from 'react'
-import '../assets/styles/sobremi.css'
+import React from 'react';
+import "../assets/styles/sobremi.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaPython, FaReact, FaLaravel } from 'react-icons/fa';
 import { SiMysql, SiBootstrap } from 'react-icons/si';
 
