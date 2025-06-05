@@ -2,6 +2,8 @@ import React from 'react';
 import "../assets/styles/sobremi.css";
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaPython, FaReact, FaLaravel } from 'react-icons/fa';
 import { SiMysql, SiBootstrap } from 'react-icons/si';
+import cvAdrian from '../assets/CV-AdrianCamargo.pdf';
+
 
 
 const SobreMi = () => {
@@ -28,7 +30,7 @@ const SobreMi = () => {
         <div className="skill-badge"><FaReact /> </div>
         <div className="skill-badge"><SiBootstrap /> </div>
       </div>
-      <a href="src/assets/CV-AdrianCamargo.pdf" className="btn-cv" target="_blank" rel="noopener noreferrer">
+      <a href={cvAdrian} className="btn-cv" target="_blank" rel="noopener noreferrer">
         Descargar CV
       </a>
       
