@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../assets/styles/Navbar.css';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [menuAbierto, setMenuAbierto] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
   return (
     <header className="navbar-container">
       <div className="logo-nombre">
-        <img src="../assets/logo.png" alt="Logo" className="logo-img" />
+        <img src={logo} alt="Logo" className="logo-img" />
         <h1 className="nombre-usuario">Cesar Adrian Camargo</h1>
       </div>
 
