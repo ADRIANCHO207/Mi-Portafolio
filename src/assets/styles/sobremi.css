@@ -1,0 +1,129 @@
+/* Estilos base */
+.sobre-mi {
+  max-width: 870px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.sobre-mi h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  position: relative;
+}
+
+.sobre-mi h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #0066cc;
+  border-radius: 4px;
+}
+
+.sobre-mi strong {
+  color: #0066cc;
+}
+
+/* Habilidades - fila de iconos */
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin: 25px 0;
+}
+
+.skill-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #333;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1) rotate(5deg);
+  color: #00acee;
+}
+
+.skill-badge i {
+  font-size: 2.2rem;
+  margin-bottom: 6px;
+}
+
+/* Botón CV */
+.btn-cv {
+  display: inline-block;
+  margin: 15px auto 0;
+  padding: 10px 25px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.enviar-correo {
+   display: inline-block;
+  margin: 15px auto 0;
+  padding: 10px 25px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.enviar-correo:hover {
+  color: #00acee;
+  transform: scale(1.1);
+}
+
+.btn-cv:hover {
+  color: #00acee;
+  transform: scale(1.1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive tablets */
+@media screen and (max-width: 1024px) {
+  .sobre-mi {
+    padding: 30px;
+    font-size: 15px;
+    margin: 60px 30px;
+  }
+  .sobre-mi h2 {font-size:28px;}
+}
+/* Celulares grandes */
+@media screen and (max-width: 768px){
+  .sobre-mi{padding:30px;font-size:16px;}
+  .sobre-mi h2{font-size:24px;}
+}
+/* Celulares pequeños */
+@media screen and (max-width:480px){
+  .sobre-mi{padding: 30px;font-size:15px;}
+  .sobre-mi h2{font-size:22px;}
+}

@@ -1,0 +1,95 @@
+/* navbar */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background-color: #222;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 70px;
+}
+
+/* para corregir desplazamiento de anclas */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Contenedor de logo + nombre */
+.logo-nombre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Estilo del logo */
+.logo-img {
+  height: 90px;
+  width: auto;
+}
+
+/* Estilo del nombre */
+.nombre-usuario {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00ffcc;
+  transform: scale(1.1);
+}
+
+.nav-links a.activo {
+  color: #00acee;
+  font-weight: bold;
+  border-bottom: 2px solid #00acee;
+}
+
+.menu-icon {
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 99px;
+    left: 0;
+    background-color: #222;
+    width: 100%;
+    display: none;
+    padding: 20px 0;
+    gap: 15px;
+    text-align: center;
+  }
+
+
+  .nav-links.activo {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}

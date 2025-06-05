@@ -1,0 +1,127 @@
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #e8e8e8;
+  min-height: 60vh;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contenedor-inicio {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  animation: slideUp 1s ease;
+}
+
+.foto {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-perfil {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #00acee;
+  transition: transform 0.3s ease;
+}
+
+.foto-perfil:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  flex: 2;
+  text-align: left;
+}
+
+.info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.datos-contacto p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.icono {
+  color: #00acee;
+}
+
+.redes {
+  margin-top: 15px;
+}
+
+.redes a {
+  font-size: 1.8rem;
+  margin-right: 20px;
+  color: #000;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.redes a:hover {
+  color: #00acee;
+  transform: scale(1.1);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .contenedor-inicio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info {
+    flex: none;
+    width: 100%;
+  }
+
+  .foto-perfil {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

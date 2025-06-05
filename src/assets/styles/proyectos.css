@@ -1,0 +1,94 @@
+.proyectos-section {
+  padding: 60px 20px;
+  background: #e8e8e8;
+  text-align: center;
+}
+
+.proyectos-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+/* Grid responsive */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.35s, box-shadow 0.35s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+}
+
+.card h3 {
+  margin: 15px;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.card p {
+  margin: 0 15px 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card-buttons a {
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #222;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card-buttons a:hover {
+  color: #00acee;
+}
+
+.btn-git {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  margin-bottom: 20px;
+  background: #24292e;        /* color GitHub */
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-git:hover {
+  color: #00acee;
+}
+
+/* Responsive texto */
+@media (max-width: 480px) {
+  .card p { font-size: 0.85rem; }
+  .card h3 { font-size: 1.1rem; }
+}
