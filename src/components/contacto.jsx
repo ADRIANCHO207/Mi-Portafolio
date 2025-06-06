@@ -34,7 +34,7 @@ const Contacto = () => {
 
 
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adriancamargo69@gmail.com" className="enviar-correo" target="_blank" rel="noopener noreferrer">
-        Redactar correoS
+        Redactar correo
       </a>
     </section>
   )
