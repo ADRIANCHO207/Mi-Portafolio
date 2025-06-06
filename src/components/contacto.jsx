@@ -20,7 +20,7 @@ const Contacto = () => {
   return (
     <section id="contacto" className="fade-in">
       <h1>Contactame</h1>
-      <p>¿Te gustaría escribirme? Copia o envíame un correo:</p>
+      <p>¿Te gustaría escribirme? Copia o Redactame un correo:</p>
 
       <div className="contenedor-copia">
         <input type="text" value={correo} readOnly />
@@ -34,7 +34,7 @@ const Contacto = () => {
 
 
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adriancamargo69@gmail.com" className="enviar-correo" target="_blank" rel="noopener noreferrer">
-        Enviar correo
+        Redactar correoS
       </a>
     </section>
   )
